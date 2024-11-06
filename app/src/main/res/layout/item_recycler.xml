@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/gambarWayang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteY="24dp" />
+
+        <TextView
+            android:id="@+id/namaWayang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="24dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:id="@+id/karakterWayang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="62dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/deskripsiWayang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="96dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"/>/>
+
+    </FrameLayout>
+
+    <!--    </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
